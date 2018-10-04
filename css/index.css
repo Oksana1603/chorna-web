@@ -1,0 +1,292 @@
+@font-face {
+    font-family: Museo Sans Cyrl;
+    src: url(/fonts/Museo_Sans_Cyrillic.otf)
+}
+
+@font-face {
+    font-family: Simple Icons;
+    src: url(/fonts/Simple-Line-Icons_0.ttf)
+}
+
+@font-face {
+    font-family: Museo2;
+    src: url(/fonts/MuseoSansCyrlother.otf)
+}
+
+@font-face {
+    font-family: Museo3;
+    src: url(/fonts/MuseoSansThird.otf)
+}
+
+body {
+    max-width: 1540px;
+    background-color: white;
+    margin: 0 auto;
+    padding: 0 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    position: relative;
+    border-radius: 6px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 52px 85px 0px rgba(0, 0, 0, 0.09);
+    margin: 40px 50px;
+    height: 90px;
+    z-index: 6;
+    display: flex;
+    align-items: center;
+
+}
+
+header {
+
+    left: 0px;
+    top: 0px;
+    z-index: 3;
+    background-image: url("/img/headerBackground.png");
+    background-size: cover;
+    height: 651px;
+    width: 1287px;
+
+}
+
+li,
+ul {
+    display: inline;
+    list-style-type: none;
+
+}
+
+nav ul {
+    margin-bottom: 0px;
+}
+
+nav li.active {
+
+    font-size: 16px;
+    font-family: Museo Sans Cyrl;
+    color: rgb(114, 191, 68);
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: left;
+    left: 168.937px;
+    top: 84.4px;
+    z-index: 8;
+    border-bottom-color: rgb(114, 191, 68);
+    border-bottom-style: solid;
+    padding: 33px 0px;
+    margin: 0px 10px;
+
+}
+
+
+nav li {
+
+
+    font-family: Museo Sans Cyrl;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: left;
+    left: 168.937px;
+    top: 84.4px;
+    z-index: 8;
+    padding: 33px 10px 33px 10px;
+
+}
+
+
+#lang {
+    border-radius: 29px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 52px 85px 0px rgba(0, 0, 0, 0.09);
+    border-color: white;
+    left: 1170px;
+    top: 65px;
+    width: 100px;
+    height: 58px;
+    z-index: 19;
+}
+
+#contacts {
+    position: absolute;
+    right: 45px;
+}
+
+nav div a {
+    padding: 33px 10px 33px 10px;
+    line-height: 1.2;
+    font-size: 16px;
+
+}
+
+h1 {
+    color: #72bf44;
+    font-family: Museo3;
+    font-size: 57px;
+}
+
+.other {
+    font-family: Museo Sans Cyrl;
+}
+
+.title {
+    position: absolute;
+    padding: 50px;
+    max-width: 50%;
+}
+
+.title p {
+    font-family: Museo3;
+    color: black;
+    font-size: 28px;
+}
+
+.card-body {
+    
+    align-items: center;
+    height: 346px;
+   
+    padding: 10px 30px 10px 30px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 52px 85px 0px rgba(0, 0, 0, 0.09);
+}
+
+#instruments {
+    text-align: center;
+}
+
+.circle {
+    position: relative;
+    align-self: center;
+    top: 50px;
+}
+
+
+.symbol {
+    position: relative;
+
+    z-index: 60;
+}
+
+.card {
+    border: 0px white;
+    z-index: -1;
+
+}
+
+.text {
+    padding: 6px 5px 20px 5px;
+    font-family: Museo Sans Cyrl;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    top: 80px;
+    font-size: 0.7;
+}
+
+.circl {
+
+    background-color: rgb(244, 244, 244);
+    position: relative;
+    border-radius: 50%;
+    width: 159px;
+    height: 159px;
+    z-index: 55;
+    align-self: center;
+    top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+
+}
+.row{
+    justify-content:center;
+    margin-bottom: 50px;
+}
+#rightpic{
+position: relative;    
+ right: 0;
+ top: 0;
+ box-shadow: 0px 52px 85px 0px rgba(0, 0, 0, 0.09);
+ float:right;
+ 
+}
+#whyme{
+
+  border-radius: 6px;
+  background-color: #72BF44;
+  box-shadow: 0px 52px 85px 0px rgba(0, 0, 0, 0.09);
+
+  z-index: 86;
+  font-size: 36px;
+  font-family: "Museo Sans Cyrl";
+  color: rgb(255, 255, 255);
+
+  text-align: center;
+ padding: 80px 40px;
+     margin-right:0;
+  z-index: 87;
+clear: right;
+display: inline;
+}
+
+.row .hashtag{
+   background-color: #72BF44;
+   color: white;
+   text-align:left;
+   padding: 80px 200px;
+   font-size: larger;
+     z-index: 21;
+
+width: 1540px;
+ letter-spacing: 1.7px;
+
+}
+.row .hashtag h2{
+    font-family: Museo3;
+}
+.row .hashtag p{
+    font-family:  Museo Sans Cyrl;
+    font-size: 18px; 
+    
+}
+
+#clients{
+     color: black; 
+ font-family:  Museo Sans Cyrl;
+  font-size: 36px;
+   font-weight: bold;
+   display: block;
+padding: 50px 200px;
+text-align: center;
+width:1287px;
+
+}
+#feedback {
+ color: black; 
+ font-family:  Museo Sans Cyrl;
+  font-size: 36px;
+
+  line-height: 1.083;
+  text-align: center;
+ 
+  z-index: 14;
+  font-weight: bold;
+display: block;
+padding: 50px 200px;
+margin: 0 150px;
+}
+hr{
+    
+  background-color: rgb(216, 216, 216);
+ 
+  width: 1124px;
+  height: 1px;
+  z-index: 9;
+
+
+}
