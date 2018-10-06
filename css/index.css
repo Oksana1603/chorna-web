@@ -1,23 +1,22 @@
 @font-face {
     font-family: Museo Sans Cyrl;
-    src: url(fonts/Museo_Sans_Cyrillic.otf)
+    src: url("fonts/Museo_Sans_Cyrillic.otf")
 }
 
-@font-face {
-    font-family: Simple Icons;
-    src: url(fonts/Simple-Line-Icons_0.ttf)
-}
+
 
 @font-face {
     font-family: Museo2;
-    src: url(fonts/MuseoSansCyrlother.otf)
+    src: url("fonts/MuseoSansCyrlother.otf")
 }
 
 @font-face {
     font-family: Museo3;
-    src: url(fonts/MuseoSansThird.otf)
+    src: url("fonts/MuseoSansThird.otf")
 }
-
+:root{
+    font-family: Museo2;
+}
 body {
     max-width: 1540px;
     background-color: white;
@@ -45,15 +44,15 @@ header {
     left: 0px;
     top: 0px;
     z-index: 3;
-    background-image: url("img/headerBackground.png");
+    background-image: url("headerBackground.png");
     background-size: cover;
     height: 651px;
     width: 1287px;
 
 }
 
-li,
-ul {
+nav li,
+nav ul {
     display: inline;
     list-style-type: none;
 
@@ -112,6 +111,10 @@ nav li {
 #contacts {
     position: absolute;
     right: 45px;
+   
+}
+#contacts img {
+     vertical-align: baseline;
 }
 
 nav div a {
@@ -289,4 +292,27 @@ hr{
   z-index: 9;
 
 
+}
+.list{
+    list-style-image: url("list.png");
+    display: block;
+    font-family: Museo2;
+    font-size: 18px;
+     text-align: left;
+   width: 430px;
+  height: 197px;
+  z-index: 79;
+  letter-spacing: 1.8px;
+ padding-top:20px;
+ text-indent: 30px;
+}
+
+.footer{
+justify-content:center;
+align-items:baseline;
+}
+
+.footer img{
+    padding: 5px 10px;
+    vertical-align: baseline;
 }
