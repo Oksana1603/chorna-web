@@ -1,21 +1,21 @@
 @font-face {
     font-family: Museo Sans Cyrl;
-    src: url(/fonts/Museo_Sans_Cyrillic.otf)
+    src: url(fonts/Museo_Sans_Cyrillic.otf)
 }
 
 @font-face {
     font-family: Simple Icons;
-    src: url(/fonts/Simple-Line-Icons_0.ttf)
+    src: url(fonts/Simple-Line-Icons_0.ttf)
 }
 
 @font-face {
     font-family: Museo2;
-    src: url(/fonts/MuseoSansCyrlother.otf)
+    src: url(fonts/MuseoSansCyrlother.otf)
 }
 
 @font-face {
     font-family: Museo3;
-    src: url(/fonts/MuseoSansThird.otf)
+    src: url(fonts/MuseoSansThird.otf)
 }
 
 body {
@@ -45,7 +45,7 @@ header {
     left: 0px;
     top: 0px;
     z-index: 3;
-    background-image: url("/img/headerBackground.png");
+    background-image: url("img/headerBackground.png");
     background-size: cover;
     height: 651px;
     width: 1287px;
